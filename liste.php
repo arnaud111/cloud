@@ -20,7 +20,7 @@
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_POST => true,
         CURLOPT_POSTFIELDS => json_encode(array(
-            "source" => "",
+            "source" => "https://myasso.herokuapp.com/liste.php",
             "landscape" => false,
             "use_print" => false
         )),
