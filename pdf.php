@@ -15,10 +15,10 @@
   ));
 
   $response = curl_exec($curl);
-  file_put_contents('test.pdf', $response);
+  file_put_contents('users.pdf', $response);
 ?>
 
-<a href="test.pdf" download>download pdf</a>
+<a href="users.pdf" download>download pdf</a>
 
 <?php
   /*$ch = curl_init('https://webtopdf.expeditedaddons.com/?api_key=' . getenv('WEBTOPDF_API_KEY') . '&content=https://projet-cloud-arnaud-erwan.herokuapp.com/liste.php&html_width=1024&margin=10&title=ListeUser');
