@@ -12,28 +12,9 @@
 
   <body>
     <h2>Liste des utilisateurs</h2>
-    <?php
-      $curl = curl_init();
-
-      curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://api.pdfshift.io/v3/convert/pdf",
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_POST => true,
-        CURLOPT_POSTFIELDS => json_encode(array(
-            "source" => "https://myasso.herokuapp.com/liste.php",
-            "landscape" => false,
-            "use_print" => false
-        )),
-        CURLOPT_HTTPHEADER => array('Content-Type:application/json'),
-        CURLOPT_USERPWD => 'api:31ef6864d610413ca62695af726b197b'
-      ));
-
-      $response = curl_exec($curl);
-      file_put_contents('users.pdf', $response);
-    ?>
-
-    <a href="users.pdf" download>download pdf</a>
-
+    <form method="post" action="pdf.php">
+      <input type='submit' value='Export PDF'>
+    </form>
     <table>
       <?php
 
