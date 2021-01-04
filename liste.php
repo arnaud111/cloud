@@ -16,6 +16,11 @@
       <input type='submit' value='Export PDF'>
     </form>
     <table>
+      <?php
+
+        $connect = connectDB();
+
+      ?>
     </table>
   </body>
 
