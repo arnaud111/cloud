@@ -8,5 +8,7 @@ h2 {
 }
 
 html{
+  position: center;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
