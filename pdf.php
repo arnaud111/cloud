@@ -18,18 +18,6 @@
   file_put_contents('users.pdf', $response);
 ?>
 
-  <a href="users.pdf">download pdf</a>
+  <a href="users.pdf" download>download pdf</a>
 
 <?php
-/*
-  $ch = curl_init('https://webtopdf.expeditedaddons.com/?api_key=' . getenv('WEBTOPDF_API_KEY') . '&content=https://myasso.herokuapp.com/liste.php&html_width=1024&margin=10&title=ListeUser');
-
-  $test = curl_exec($ch);
-  curl_close($ch);
-
-  file_put_contents('test.pdf', $test);
-
-  //header('Location:liste.php');
-  ?>
-
-  <a href="test.pdf"> / download pdf</a>
