@@ -1,9 +1,11 @@
 table {
   position: center;
   text-align: center;
-  border:1px solid grey;
-  background-color: red;
   width: 100%
+}
+
+td{
+  border-bottom:1px solid grey;
 }
 
 h2 {
