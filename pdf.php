@@ -6,7 +6,7 @@
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_POST => true,
     CURLOPT_POSTFIELDS => json_encode(array(
-        "source" => "https://en.wikipedia.org/wiki/PDF",
+        "source" => "https://myasso.herokuapp.com/liste.php",
         "landscape" => false,
         "use_print" => false
     )),
@@ -19,5 +19,3 @@
 ?>
 
   <a href="users.pdf" download>download pdf</a>
-
-<?php
