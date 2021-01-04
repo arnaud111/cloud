@@ -7,8 +7,11 @@ td{
   border-bottom:1px solid grey;
 }
 
+h2 {
+    color: grey;
+}
+
 html{
-  color: grey;
   position: center;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -17,4 +20,5 @@ html{
 input {
   box-shadow: 5px 5px 5px grey;
   background-color: white;
+  color: grey;
 }
