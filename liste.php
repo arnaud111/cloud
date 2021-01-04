@@ -15,8 +15,17 @@
     <form method="post" action="pdf.php">
       <input type='submit' value='Export PDF'>
     </form>
-    <a href="users.pdf" download>download pdf</a>
     <table>
+      <?php
+
+        $connect = connectDB();
+
+        $listUser = $connect->query("SELECT email FROM USERS");
+        while($user = $listUser->fetch()){
+          echo "<tr><td>".$user["email"]."</td></tr>";
+        }
+
+      ?>
     </table>
   </body>
 
