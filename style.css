@@ -1,19 +1,14 @@
 table {
   padding-top: 20px;
-  position: center;
-  text-align: center;
-  width: 100%
+  width: 100%;
 }
 
 td{
   border-bottom:1px solid grey;
 }
 
-h2 {
+html{
   position: center;
   text-align: center;
-}
-
-html{
   font-family: 'Montserrat', sans-serif;
 }
