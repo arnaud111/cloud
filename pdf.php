@@ -7,4 +7,4 @@
 
   var_dump($response);
 
-  header('Location:liste.php');
+  //header('Location:liste.php');
