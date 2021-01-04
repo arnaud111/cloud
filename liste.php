@@ -20,7 +20,7 @@
 
         $connect = connectDB();
 
-        $listUser = $connect->query("SELECT email FROM USER");
+        $listUser = $connect->query("SELECT email FROM USERS");
         while($user = $listUser->fetch()){
           echo "<tr><td>".$user["email"]."</td></tr>";
         }

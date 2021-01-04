@@ -1,6 +1,6 @@
 <?php
 
-define("DBHOST", "localhost");
-define("DBUSER", "Umyasso"); //Umyasso
-define("DBPWD", "1hdpz8cv"); //1hdpz8cv
-define("DBNAME", "myasso"); //myasso
+define("DBHOST", "ec2-54-73-90-195.eu-west-1.compute.amazonaws.com:5432");
+define("DBUSER", "lfwueiqiqninhr"); //Umyasso
+define("DBPWD", "6f7d32e3352fe949aa8c63d94418af1e2e31297e72683240f58d09cb6a97df0a"); //1hdpz8cv
+define("DBNAME", "d9g730mabif3gp"); //myasso
