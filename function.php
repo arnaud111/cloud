@@ -6,7 +6,7 @@
 
 		try{
 			$connect = new PDO(
-				"mysql:host=".DBHOST.";dbname=".DBNAME ,
+				"pgsql:host=".DBHOST.";dbname=".DBNAME ,
 				DBUSER ,
 				DBPWD );
 		}catch(Exception $e){
