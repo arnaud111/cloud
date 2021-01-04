@@ -30,7 +30,8 @@
       file_put_contents('users.pdf', $response);
     ?>
 
-      <a href="users.pdf" download>download pdf</a>
+      <a href="users.pdf" download>Download PDF</a><br>
+      <a href="liste.php">Retour</a>
 
   </body>
 
