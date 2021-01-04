@@ -2,6 +2,7 @@ table {
   position: center;
   text-align: center;
   border:1px solid grey;
+  background-color: red;
 }
 
 h2 {
