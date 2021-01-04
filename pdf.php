@@ -21,8 +21,10 @@
   file_put_contents('test.pdf', $response);
   echo "ok";
 ?>
-<a href="test.pdf" download>download pdf</a>
 
+<a href="2.pdf" download>download pdf</a>
+
+<?php
   /*$ch = curl_init('https://webtopdf.expeditedaddons.com/?api_key=' . getenv('WEBTOPDF_API_KEY') . '&content=https://projet-cloud-arnaud-erwan.herokuapp.com/liste.php&html_width=1024&margin=10&title=ListeUser');
 
   $response = curl_exec($ch);
