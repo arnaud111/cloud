@@ -14,5 +14,6 @@ html{
 }
 
 input {
-  box-shadow: 10px 5px 5px grey;
+  box-shadow: 5px 5px 5px grey;
+  background-color: white;
 }
